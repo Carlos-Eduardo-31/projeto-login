@@ -6,6 +6,7 @@
     <title>login</title>
     <link rel="stylesheet" href="Estilos/style.css">
     <link rel="stylesheet" href="Estilos/media-query.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
 </head>
 <body>
     <main>
@@ -16,8 +17,27 @@
             <div id="formulario">
                 <h1>login</h1>
                 <p>seja bem-vimdo(a) novamente. faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
-                <form action="login.php" method="post">
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="campo">
 
+                        <span class="material-symbols-outlined">
+                            account_circle
+                            </span>
+
+                        <input type="email" name="login" id="ilogin" placeholder="Seu e-mail" autocomplete="email" required maxlength="30">
+                        <label for="ilogin">login</label>
+                    </div>
+
+                    <div class="campo">
+
+                        <span class="material-symbols-outlined">
+                            key<span>
+
+                        <input type="password" name="Senha" id="isenha" placeholder="Sua senha" autocomplete="current-password" required minlength="8" maxlength="16">
+                        <label for="isenha">senha</label>
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <a href="esquici.html">Esquici a senha <span class="material-symbols-outlined">mail</span> </a>
                 </form>
             </div>
         </section>
