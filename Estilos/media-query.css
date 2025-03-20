@@ -16,6 +16,11 @@ Grandes telas: acima de 1200px
         #5f2c82);
     }
 
+    div.campo > input{
+        transform: translateY(-6px);
+    }
+
+
     section#login{
         width: 80vw;
         height: 300px;
@@ -47,7 +52,7 @@ Grandes telas: acima de 1200px
     }
 
     div.campo > input{
-        transform: translateY(-6px);
+        transform: translateY(-7px);
     }
 
     section#login{

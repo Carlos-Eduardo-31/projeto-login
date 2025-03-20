@@ -32,7 +32,7 @@
     overflow: hidden;
 
     background-color: #fff;
-    width: 250px;
+    width: 280px;
     height: 515px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.63);
@@ -93,7 +93,7 @@
         font-size: 1em;
         width: calc(100% - 44px);
         height: 100%;
-        transform: translateY(-7px);
+        transform: translateY(-6px);
         border: 0px;
         border-radius: 5px;
         padding: 4px;
